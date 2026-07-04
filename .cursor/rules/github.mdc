@@ -1,0 +1,27 @@
+---
+description: GitHub account and identity for this project
+globs:
+alwaysApply: true
+---
+
+# GitHub Identity
+
+- **GitHub Account:** hosfordd391-del
+- **Email:** hosfordd391@gmail.com
+
+Before any git push or PR creation, switch to this account:
+
+```
+gh auth switch --user hosfordd391-del
+```
+
+When creating commits, pushing to remote, or creating PRs, use this identity.
+
+Before committing, always ensure the local git config is set correctly:
+
+```
+git config user.name "hosfordd391-del"
+git config user.email "hosfordd391@gmail.com"
+```
+
+This ensures the commit author matches the GitHub account, not the system default.
