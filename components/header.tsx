@@ -36,7 +36,7 @@ export function Header() {
           <div className="flex items-center gap-4 font-mono text-xs">
             <span className="flex items-center gap-1.5">
               <MapPin className="h-3 w-3" />
-              <span className="hidden sm:inline">Sydney, NSW</span>
+              <span className="hidden sm:inline">Ashfield, NSW 2131</span>
               <span className="sm:hidden">NSW</span>
             </span>
             <span className="hidden sm:inline text-primary-foreground/60">|</span>

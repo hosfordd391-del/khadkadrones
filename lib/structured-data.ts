@@ -10,8 +10,10 @@ export function generateWebsiteStructuredData(url: string) {
     email: "arjun@khadkadrones.com",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Sydney",
+      streetAddress: "Unit 43, 106-116 Elizabeth St",
+      addressLocality: "Ashfield",
       addressRegion: "NSW",
+      postalCode: "2131",
       addressCountry: "AU",
     },
     areaServed: {

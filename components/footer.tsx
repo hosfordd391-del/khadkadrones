@@ -52,7 +52,7 @@ export function Footer() {
               </a>
               <div className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 shrink-0 text-primary mt-0.5" />
-                <span>Sydney, NSW, Australia</span>
+                <span>Unit 43, 106-116 Elizabeth St, Ashfield NSW 2131</span>
               </div>
             </div>
           </div>
